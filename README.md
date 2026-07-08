@@ -46,6 +46,8 @@ Full protocol: technique `SSR` / `voltage clamp`, expression system `Xenopus ooc
 ### 📚 **Resources**
 Full traceability: bibliographic reference, source DOI, precise location.
 
+![Summary of the database construction of M2iOR](assets/images/M2iOR_schema.drawio.svg)
+
 ---
 
 ### 📄 License
