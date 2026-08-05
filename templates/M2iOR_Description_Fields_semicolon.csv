@@ -12,7 +12,7 @@
 ;Molecule;Mixture;mono molecular / sum of isomers / mixture
 ;Response;Responsive;Binary-encoded response: 0 non-agonist, 1 agonist (author decision)
 *;Response;Parameter;primary (single dose), secondary (2-3 conc.), dose-response (full curve)
-*;Response;Value;"Value reported or EC50 for dose-response. n.d. if non-responsive"
+*;Response;Value;Value reported or EC50 for dose-response. n.d. if non-responsive
 *;Response;Unit;Unit of Value (firing rate, potential, normalized, etc.)
 ;Response;Value Nature;EC50, Raw, Norm_rec, Norm_pair, Norm_other
 *;Response;Concentration;Concentration used for screening or concentration range for EC50
