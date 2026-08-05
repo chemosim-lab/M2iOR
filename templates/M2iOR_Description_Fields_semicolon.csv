@@ -1,0 +1,37 @@
+﻿Mandatory;Categories;Colonne;Description
+;Receptor and Co-Receptor Information;Species;Taxon name of the species from which the OR originates.
+;Receptor and Co-Receptor Information;Receptor/Co-Receptor Name;Gene Name of the given OR/Orco.
+*;Receptor and Co-Receptor Information;Accession;Identifier in the UniprotKB or Genbank database.
+;Receptor and Co-Receptor Information;Mutation;Mutation realized by authors on protein sequence (format XpositionY, *ins* for insertion, *del* for deletion)
+*;Receptor and Co-Receptor Information;Sequence;Protein sequence of the given OR (standardized identifier in M2iOR)
+;Molecule;Molecule Name;Name of the molecule as reported in the source (standardized via PubChem)
+*;Molecule;CID;Compound Identifier from PubChem
+;Molecule;CAS;CAS Registry Number
+;Molecule;InChIKey;International Chemistry Identifier Key from PubChem (standardized identifier)
+;Molecule;SMILES;Simplified Molecular-Input Line-Entry System representation
+;Molecule;Mixture;mono molecular / sum of isomers / mixture
+;Response;Responsive;Binary-encoded response: 0 non-agonist, 1 agonist (author decision)
+*;Response;Parameter;primary (single dose), secondary (2-3 conc.), dose-response (full curve)
+*;Response;Value;"Value reported or EC50 for dose-response; n.d. if non-responsive"
+*;Response;Unit;Unit of Value (firing rate, potential, normalized, etc.)
+;Response;Value Nature;EC50, Raw, Norm_rec, Norm_pair, Norm_other
+*;Response;Concentration;Concentration used for screening or concentration range for EC50
+;Response;Concentration Unit;Unit of Concentration
+;Response;Nbr. Measurement;Number of repetitions
+*;Bioassay;Experimental technique;Type of technique (Two-electrode voltage clamp, calcium imaging, SSR...)
+;Bioassay;Recording system;Recording system (robot model for oocytes, tungstene electrode SSR, etc.)
+;Bioassay;Type;Measured quantity: Ca2+, spiking frequency, current amplitude, fluorescence...
+;Bioassay;Expression System;Cell or organism (HEK, Xenopus oocytes, Drosophila...)
+;Bioassay;Expression Cell Type;Specific cell type for heterologous expression (HEK293, ab3a, at1/ab3...)
+;Bioassay;Expression Driver;Genetic driver/promoter (Orco-GAL4, OR67d-GAL4, pCS2+, pT7Ts...)
+;Bioassay;Co-Transfection;Any protein co-transfected with ORs
+;Bioassay;Odor delivery system;Method to deliver odorants (liquid, airborne paper, headspace, GC...)
+;Bioassay;Stimulation Flux;Flow rate of air/liquid stream carrying odorant
+;Bioassay;Stimulation Unit;Unit for Stimulation Flux (mL/s, L/min...)
+;Bioassay;Main Flux;Background/carrier flow rate
+;Bioassay;Main Flux Unit;Unit for Main Flux
+;Bioassay;Stimulation Duration;Duration of odorant presentation
+;Bioassay;Stimulation Duration Unit;Unit for duration (s, ms...)
+;Resources;Reference;Bibliographic reference of source
+*;Resources;DOI;Digital Object Identifier of source
+;Resources;Reference Position;Specific location in source (Table1, Fig S1...)
