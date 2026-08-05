@@ -21,7 +21,7 @@ To submit your data, please use one of the template files provided in this repos
 * **Excel Format (`.xlsx`)**: `M2iOR_Experiment_Table_Empty.xlsx` (recommended; contains description sheets and the input table).
 * **CSV Format (`.csv`)**: `M2iOR_Experiment_Table_Empty_semicolon.csv` (semicolon-delimited `;`).
 
-You can also refer to the file `M2iOR_Description_Fields_semicolon.csv` to view the complete list of expected metadata, their definitions, and whether they are mandatory.
+You can also refer to the file [M2iOR_Description_Fields.md](https://github.com/chemosim-lab/M2iOR/blob/main/templates/M2iOR_Description_Fields.md) to view the complete list of expected metadata, their definitions, and whether they are mandatory.
 
 ---
 
