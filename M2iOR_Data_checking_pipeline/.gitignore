@@ -1,0 +1,22 @@
+# Directories to ignore
+cache/
+input/
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+
+# IDE
+.vscode/
+
+# uv
+.python-version
+
+
+# Graphify personnal usage for the moment
+.claude/
+CLAUDE.md
+graphify-out/
