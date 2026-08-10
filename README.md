@@ -9,7 +9,7 @@ But these data are scattered across the literature, with heterogeneous species, 
 
 **M2iOR centralizes and standardizes it all.**
 
-It’s a curated, publicly accessible resource that currently compiles **30,000+ bioassay experiments** extracted from peer-reviewed publications and public databases.
+It’s a curated, publicly accessible resource that currently compiles **31,000+ bioassay experiments** extracted from peer-reviewed publications and public databases.
 
 ### ✨ What’s inside
 
@@ -35,7 +35,7 @@ All about the tested receptor: species, OR/Orco gene name, Uniprot/Genbank ID, m
 ### 🧪 **Molecule**
 Odorant description: name, PubChem CID, CAS, InChIKey, SMILES.  
 Handles single compounds, isomer blends, and complex mixtures.  
-*InChIKey = standard molecular identifier in M2iOR.*
+*CID = standard molecular identifier in M2iOR.*
 
 ### 📈 **Response**
 The result: agonist yes/no, measurement type `primary` / `secondary` / `dose-response`, EC50 or raw value, unit, tested concentration, number of replicates.
