@@ -7,11 +7,11 @@ This guide outlines the procedure for submitting your olfaction and olfactory re
 ---
 
 ## 📋 Table of Contents
-1. [Prerequisites & Template Files](#prerequisites--template-files)
-2. [Data Structure & Description](#data-structure--description)
-3. [Filling Instructions](#filling-instructions)
-4. [Email Submission Procedure](#email-submission-procedure)
-5. [Validation & Integration Process](#validation--integration-process)
+1. [Prerequisites & Template Files](#1-prerequisites--template-files)
+2. [Data Structure & Description](#2-data-structure--description)
+3. [Filling Instructions](#3-filling-instructions)
+4. [Email Submission Procedure](#4-email-submission-procedure)
+5. [Validation & Integration Process](#5-validation--integration-process)
 
 ---
 
