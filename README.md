@@ -9,7 +9,7 @@ But these data are scattered across the literature, with heterogeneous species, 
 
 **M2iOR centralizes and standardizes it all.**
 
-It’s a curated, publicly accessible resource that currently compiles **31,000+ bioassay experiments** extracted from peer-reviewed publications and public databases.
+It’s a curated, publicly accessible resource that currently compiles **30,000+ bioassay experiments** extracted from peer-reviewed publications and public databases.
 
 ### ✨ What’s inside
 
