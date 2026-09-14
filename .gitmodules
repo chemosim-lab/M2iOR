@@ -1,0 +1,3 @@
+[submodule "M2iOR_Data_checking_pipeline"]
+	path = M2iOR_Data_checking_pipeline
+	url = https://github.com/chemosim-lab/M2iOR_Data_checking_pipeline.git
