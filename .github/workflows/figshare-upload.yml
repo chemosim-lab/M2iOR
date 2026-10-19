@@ -1,0 +1,46 @@
+name: Upload to Figshare
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      data_tag:
+        description: "Tag of the data release (M2iOR_web_public-main). Empty = latest release"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    env:
+      VERSION: ${{ github.event.release.tag_name || github.ref_name }}
+      DATA_TAG: ${{ inputs.data_tag }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Zip M2iOR (sub-module included)
+        run: |
+          mkdir out
+          git ls-files --recurse-submodules | zip -@ "out/M2iOR-${VERSION}.zip"
+
+      - name: Download the data archive (private repository)
+        env:
+          GH_TOKEN: ${{ secrets.PRIVATE_REPO_READ_TOKEN }}
+        run: |
+          gh release download ${DATA_TAG:+"$DATA_TAG"} \
+            --repo chemosim-lab/M2iOR_web_public-main \
+            --pattern 'M2iOR_v*.zip' --dir out
+          sha256sum out/M2iOR_v*.zip
+
+      - uses: figshare/github-upload-action@v1.1
+        with:
+          FIGSHARE_TOKEN: ${{ secrets.FIGSHARE_TOKEN }}
+          FIGSHARE_ENDPOINT: 'https://api.figshare.com/v2'
+          FIGSHARE_ARTICLE_ID: 12345678    # replace with the ID from step 1
+          DATA_DIR: 'out'
