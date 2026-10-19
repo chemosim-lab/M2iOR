@@ -42,5 +42,5 @@ jobs:
         with:
           FIGSHARE_TOKEN: ${{ secrets.FIGSHARE_TOKEN }}
           FIGSHARE_ENDPOINT: 'https://api.figshare.com/v2'
-          FIGSHARE_ARTICLE_ID: 12345678    # replace with the ID from step 1
+          FIGSHARE_ARTICLE_ID: ${{ vars.FIGSHARE_ARTICLE_ID }}
           DATA_DIR: 'out'
